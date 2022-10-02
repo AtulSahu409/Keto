@@ -1,0 +1,55 @@
+.heading{
+    position:absolute;
+    top:130%;
+    left: 25%;
+
+    z-index: 30;
+    color:white;
+
+
+}
+.image{
+    position: absolute;
+    top:75px;
+    z-index: 9;
+}
+.input{
+    position:absolute;
+    top:400%;
+    left: 25%;
+
+    z-index: 30;
+    color:white;
+
+}
+.smhead{
+    position:absolute;
+    top:550%;
+    left: 25%;
+
+    z-index: 30;
+    color:white;
+
+}
+.cloumn{
+    position:absolute;
+    top:650%;
+    left: 25%;
+    cursor: pointer;
+
+    z-index: 30;
+    color:white;
+
+
+}
+.append{
+
+    
+    position:absolute;
+    top:950%;
+    left:20%;
+    z-index: 30;
+    
+
+
+}

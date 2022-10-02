@@ -1,24 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+
+import { useEffect } from 'react'; 
+import Navbar from './Navbar/Navbar';
+import AllRouter from './Navbar/AllRouter';
+import{Box} from "@chakra-ui/react"
 
 function App() {
+  // const style={position:"absolute",top:"0%"}
+
+  // useEffect(() => {
+  //   const handleScroll = event => {
+  //     if(window.scrollY>50){
+  //        style={position:"sticky",top:"0%"}
+  //     }
+  //     console.log('window.scrollY', window.scrollY);
+  //   };
+
+  //   window.addEventListener('scroll', handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  
+    <Box w="100%" className="App" >
+     <Navbar/>
+     
+     
+     
+     <AllRouter/>
+     
+    
+    </Box>
+    
   );
 }
 

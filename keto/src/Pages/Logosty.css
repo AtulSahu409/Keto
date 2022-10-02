@@ -1,0 +1,23 @@
+@media (max-width: 900px){
+    .desktop{
+        display: grid;
+        width: 100%;
+        max-height: max-content;
+        
+        grid-template-columns: repeat(1,1fr);
+    }
+    .icon{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2);
+        gap:20px
+    }
+    .mid{
+        
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        /* grid-template-rows: repeat(1); */
+        gap:20px
+
+    }
+}
